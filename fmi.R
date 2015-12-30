@@ -4,6 +4,8 @@ library(dplyr)
 
 apiKey <- Sys.getenv("FMI_APIKEY")
 
+# Modifed from 
+# Jussi Jousimo et al. (C) 2014. fmi R package. URL: http://www.github.com/rOpenGov/fmi
 getwatlev <- function(id) {
   df <- data.frame()
   
